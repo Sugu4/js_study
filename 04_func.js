@@ -1,3 +1,5 @@
+// 04_func.js
+
 function helloWorld() {
     console.log("Hello, World!");
 }
@@ -26,8 +28,11 @@ hallo = () => {return console.log("geh weg");
 }
 
 hallo = () => "komm her";
-
+console.log(hallo());
 let set2 = new Set(["hallo", "welt", "geh", "weg", "komm", "her"]);
+let arr = [];
 
-set2.forEach(element => console.log(element)
+set2.forEach(element => {console.log(element); arr.push(element)}
 );
+
+console.log(arr);

@@ -1,3 +1,5 @@
+// 01_var.js
+
 let zahl = 1;
 zahl = 3.14;
 zahl = "Hallo";
