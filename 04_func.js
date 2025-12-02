@@ -18,3 +18,16 @@ function add(zahl, zahl2, ...args) {
 }
 
 console.log(add( "morgen", 3));
+
+let hallo = function() {return console.log("hallo welt");
+}
+
+hallo = () => {return console.log("geh weg");
+}
+
+hallo = () => "komm her";
+
+let set2 = new Set(["hallo", "welt", "geh", "weg", "komm", "her"]);
+
+set2.forEach(element => console.log(element)
+);
