@@ -16,3 +16,8 @@ section.addEventListener('click',
     () => alert(`Bubbling ${section.tagName}`), false
 );
 
+
+const geo = navigator.geolocation.getCurrentPosition(position=>
+    console.log(position),
+    error=> console.error(error)
+);
